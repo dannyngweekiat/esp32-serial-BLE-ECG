@@ -32,7 +32,8 @@ This project uses PlatformIO to manage dependencies and build the project. Follo
 
 Hardware required for this project:
 
-1. NodeMCU ESP32 board [https://esphome.io/devices/nodemcu_esp32.html](https://esphome.io/devices/nodemcu_esp32.html)
+1. ESP-WROOM-32
+![ESP-WROOM-32](./img/ESP-WROOM-32.png "ESP-WROOM-32. Source: http://dx.doi.org/10.13140/RG.2.2.35371.31526")
 2. ADS8232 ECG acquisition module [https://www.sparkfun.com/products/12650](https://github.com/sparkfun/AD8232_Heart_Rate_Monitor)
 
 Connect the ESP32 and ADS8232 as follows:
@@ -41,9 +42,9 @@ Connect the ESP32 and ADS8232 as follows:
 | ----- | ------- |
 | 3V3   | 3.3V    |
 | GND   | GND     |
-| 36    | OUTPUT  |
-| 39    | LOFF-   |
-| 34    | LOFF+   |
+| 4     | OUTPUT  |
+| 16    | LOFF-   |
+| 17    | LOFF+   |
 
 ### Software Setup
 

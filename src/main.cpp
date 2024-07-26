@@ -16,9 +16,9 @@
 #include "SimpleQueue.hpp"
 #include "FIR.hpp"
 
-#define ECG_ANALOG 36
-#define ECG_LEADOFF_MINUS 39
-#define ECG_LEADOFF_PLUS 34
+#define ECG_ANALOG 4
+#define ECG_LEADOFF_MINUS 16
+#define ECG_LEADOFF_PLUS 17
 
 #define LeadOffCheck(pin) (digitalRead(pin) == HIGH)
 
