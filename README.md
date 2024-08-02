@@ -43,8 +43,8 @@ Connect the ESP32 and ADS8232 as follows:
 | 3V3   | 3.3V    |
 | GND   | GND     |
 | 4     | OUTPUT  |
-| 16    | LOFF-   |
-| 17    | LOFF+   |
+| 16/RX2| LOFF-   |
+| 17/TX2| LOFF+   |
 
 ### Software Setup
 
